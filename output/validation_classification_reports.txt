@@ -1,0 +1,156 @@
+================================================================================
+VALIDATION SET CLASSIFICATION REPORTS - ALL MODELS
+Machine Learning Based Mental Health Risk Prediction
+Among College Students
+================================================================================
+
+Dataset: College Student Mental Health IoT Dataset
+Target: mental_health_risk
+Classes: ['Low', 'Moderate', 'High', 'Critical']
+Split: 80% Train / 10% Validation / 10% Test
+random_state: 42
+Imbalance Handling: SMOTE (training only) + class_weight='balanced'
+
+============================================================
+Logistic Regression — VALIDATION SET
+============================================================
+Accuracy: 0.8567
+Macro Precision: 0.7378
+Macro Recall: 0.8139
+Macro F1: 0.7679
+Weighted Precision: 0.8642
+Weighted Recall: 0.8567
+Weighted F1: 0.8595
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         Low       0.50      0.78      0.61        27
+    Moderate       0.70      0.76      0.73       181
+        High       0.80      0.81      0.80       471
+    Critical       0.95      0.91      0.93       821
+
+    accuracy                           0.86      1500
+   macro avg       0.74      0.81      0.77      1500
+weighted avg       0.86      0.86      0.86      1500
+
+
+============================================================
+Decision Tree — VALIDATION SET
+============================================================
+Accuracy: 0.6093
+Macro Precision: 0.4433
+Macro Recall: 0.4633
+Macro F1: 0.4514
+Weighted Precision: 0.6238
+Weighted Recall: 0.6093
+Weighted F1: 0.6157
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         Low       0.14      0.19      0.16        27
+    Moderate       0.39      0.47      0.43       181
+        High       0.45      0.46      0.45       471
+    Critical       0.79      0.74      0.77       821
+
+    accuracy                           0.61      1500
+   macro avg       0.44      0.46      0.45      1500
+weighted avg       0.62      0.61      0.62      1500
+
+
+============================================================
+Random Forest — VALIDATION SET
+============================================================
+Accuracy: 0.7753
+Macro Precision: 0.6873
+Macro Recall: 0.5655
+Macro F1: 0.5841
+Weighted Precision: 0.7682
+Weighted Recall: 0.7753
+Weighted F1: 0.7683
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         Low       0.60      0.11      0.19        27
+    Moderate       0.61      0.59      0.60       181
+        High       0.68      0.65      0.66       471
+    Critical       0.86      0.91      0.88       821
+
+    accuracy                           0.78      1500
+   macro avg       0.69      0.57      0.58      1500
+weighted avg       0.77      0.78      0.77      1500
+
+
+============================================================
+SVM — VALIDATION SET
+============================================================
+Accuracy: 0.8567
+Macro Precision: 0.8033
+Macro Recall: 0.7515
+Macro F1: 0.7705
+Weighted Precision: 0.8604
+Weighted Recall: 0.8567
+Weighted F1: 0.8576
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         Low       0.78      0.52      0.62        27
+    Moderate       0.72      0.76      0.74       181
+        High       0.77      0.82      0.80       471
+    Critical       0.94      0.91      0.93       821
+
+    accuracy                           0.86      1500
+   macro avg       0.80      0.75      0.77      1500
+weighted avg       0.86      0.86      0.86      1500
+
+
+============================================================
+KNN — VALIDATION SET
+============================================================
+Accuracy: 0.3893
+Macro Precision: 0.3883
+Macro Recall: 0.4282
+Macro F1: 0.3218
+Weighted Precision: 0.6497
+Weighted Recall: 0.3893
+Weighted F1: 0.4335
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         Low       0.07      0.48      0.13        27
+    Moderate       0.19      0.45      0.27       181
+        High       0.34      0.43      0.38       471
+    Critical       0.95      0.35      0.51       821
+
+    accuracy                           0.39      1500
+   macro avg       0.39      0.43      0.32      1500
+weighted avg       0.65      0.39      0.43      1500
+
+
+============================================================
+XGBoost — VALIDATION SET
+============================================================
+Accuracy: 0.8020
+Macro Precision: 0.6903
+Macro Recall: 0.6459
+Macro F1: 0.6635
+Weighted Precision: 0.8017
+Weighted Recall: 0.8020
+Weighted F1: 0.8012
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         Low       0.50      0.33      0.40        27
+    Moderate       0.66      0.61      0.64       181
+        High       0.70      0.75      0.72       471
+    Critical       0.90      0.89      0.90       821
+
+    accuracy                           0.80      1500
+   macro avg       0.69      0.65      0.66      1500
+weighted avg       0.80      0.80      0.80      1500
+

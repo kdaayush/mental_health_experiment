@@ -1,0 +1,32 @@
+================================================================================
+FINAL TEST SET CLASSIFICATION REPORT
+Selected Model: Logistic Regression
+Split: 80% Train / 10% Validation / 10% Test
+================================================================================
+
+Accuracy:           0.8600
+Macro Precision:    0.7648
+Macro Recall:       0.8611
+Macro F1:           0.8008
+Weighted Precision: 0.8658
+Weighted Recall:    0.8600
+Weighted F1:        0.8618
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         Low       0.58      0.96      0.72        27
+    Moderate       0.74      0.77      0.76       181
+        High       0.79      0.81      0.80       472
+    Critical       0.94      0.91      0.93       820
+
+    accuracy                           0.86      1500
+   macro avg       0.76      0.86      0.80      1500
+weighted avg       0.87      0.86      0.86      1500
+
+
+Confusion Matrix:
+[[ 26   1   0   0]
+ [ 19 139  23   0]
+ [  0  47 380  45]
+ [  0   0  75 745]]

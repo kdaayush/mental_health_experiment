@@ -1,0 +1,8 @@
+Metric,Test Score
+Accuracy,0.86
+Macro Precision,0.7648
+Macro Recall,0.8611
+Macro F1,0.8008
+Weighted Precision,0.8658
+Weighted Recall,0.86
+Weighted F1,0.8618

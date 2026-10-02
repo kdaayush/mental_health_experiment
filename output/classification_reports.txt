@@ -1,0 +1,156 @@
+================================================================================
+CLASSIFICATION REPORTS - ALL MODELS
+Machine Learning Based Mental Health Risk Prediction
+Among College Students
+================================================================================
+
+Dataset: College Student Mental Health IoT Dataset
+Target: mental_health_risk
+Classes: ['Low', 'Moderate', 'High', 'Critical']
+Train/Test Split: 80/20
+random_state: 42
+Imbalance Handling: SMOTE (training only) + class_weight='balanced'
+
+============================================================
+Logistic Regression
+============================================================
+Accuracy: 0.8583
+Macro Precision: 0.7515
+Macro Recall: 0.8375
+Macro F1: 0.7846
+Weighted Precision: 0.8650
+Weighted Recall: 0.8583
+Weighted F1: 0.8607
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         Low       0.54      0.87      0.67        54
+    Moderate       0.72      0.77      0.74       362
+        High       0.80      0.81      0.80       943
+    Critical       0.95      0.91      0.93      1641
+
+    accuracy                           0.86      3000
+   macro avg       0.75      0.84      0.78      3000
+weighted avg       0.86      0.86      0.86      3000
+
+
+============================================================
+Decision Tree
+============================================================
+Accuracy: 0.6240
+Macro Precision: 0.4623
+Macro Recall: 0.4895
+Macro F1: 0.4731
+Weighted Precision: 0.6408
+Weighted Recall: 0.6240
+Weighted F1: 0.6313
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         Low       0.18      0.26      0.22        54
+    Moderate       0.38      0.46      0.42       362
+        High       0.48      0.48      0.48       943
+    Critical       0.81      0.75      0.78      1641
+
+    accuracy                           0.62      3000
+   macro avg       0.46      0.49      0.47      3000
+weighted avg       0.64      0.62      0.63      3000
+
+
+============================================================
+Random Forest
+============================================================
+Accuracy: 0.7860
+Macro Precision: 0.7398
+Macro Recall: 0.5791
+Macro F1: 0.6014
+Weighted Precision: 0.7823
+Weighted Recall: 0.7860
+Weighted F1: 0.7797
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         Low       0.78      0.13      0.22        54
+    Moderate       0.62      0.60      0.61       362
+        High       0.69      0.67      0.68       943
+    Critical       0.87      0.91      0.89      1641
+
+    accuracy                           0.79      3000
+   macro avg       0.74      0.58      0.60      3000
+weighted avg       0.78      0.79      0.78      3000
+
+
+============================================================
+SVM
+============================================================
+Accuracy: 0.8517
+Macro Precision: 0.7847
+Macro Recall: 0.7613
+Macro F1: 0.7711
+Weighted Precision: 0.8543
+Weighted Recall: 0.8517
+Weighted F1: 0.8526
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         Low       0.70      0.57      0.63        54
+    Moderate       0.73      0.76      0.74       362
+        High       0.77      0.81      0.79       943
+    Critical       0.94      0.91      0.92      1641
+
+    accuracy                           0.85      3000
+   macro avg       0.78      0.76      0.77      3000
+weighted avg       0.85      0.85      0.85      3000
+
+
+============================================================
+KNN
+============================================================
+Accuracy: 0.3883
+Macro Precision: 0.3915
+Macro Recall: 0.4524
+Macro F1: 0.3277
+Weighted Precision: 0.6484
+Weighted Recall: 0.3883
+Weighted F1: 0.4312
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         Low       0.09      0.57      0.16        54
+    Moderate       0.19      0.47      0.27       362
+        High       0.34      0.41      0.37       943
+    Critical       0.95      0.35      0.51      1641
+
+    accuracy                           0.39      3000
+   macro avg       0.39      0.45      0.33      3000
+weighted avg       0.65      0.39      0.43      3000
+
+
+============================================================
+XGBoost
+============================================================
+Accuracy: 0.8133
+Macro Precision: 0.7233
+Macro Recall: 0.6669
+Macro F1: 0.6885
+Weighted Precision: 0.8133
+Weighted Recall: 0.8133
+Weighted F1: 0.8125
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         Low       0.59      0.37      0.45        54
+    Moderate       0.68      0.64      0.66       362
+        High       0.71      0.76      0.74       943
+    Critical       0.91      0.90      0.90      1641
+
+    accuracy                           0.81      3000
+   macro avg       0.72      0.67      0.69      3000
+weighted avg       0.81      0.81      0.81      3000
+
